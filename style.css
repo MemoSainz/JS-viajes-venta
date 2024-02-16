@@ -1,0 +1,54 @@
+body {
+    font-family: 'Graphik Trial';
+    margin: 0;
+    background-image: linear-gradient(to left,pink,orange);
+    color: #d6cfb5
+}
+
+h1 {
+    text-align: center;
+    border: 3px solid green;
+    background-image: url("");
+    color: #ebe0e0
+}
+
+p {
+    color:#04AA6D
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #202225;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #047e51;
+    color: white;
+}
+
+
+.contenedor {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+    color:aliceblue
+}
