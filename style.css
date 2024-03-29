@@ -9,11 +9,38 @@ h1 {
     text-align: center;
     border: 3px solid green;
     background-image: url("");
-    color: #ebe0e0
+    color: #ebe0e0;
+    max-width: 97%;
+    
 }
 
 p {
     color:#04AA6D
+}
+
+footer {
+    text-align: center bottom ;
+    position: absolute;
+    bottom: 10px;
+    width: 95rem;
+    color: #ccc;
+    padding: 1rem;
+  }
+
+a:link {
+    color: blueviolet
+}
+
+a:visited {
+    color:#04AA6D
+}
+
+a:hover {
+    color:#008080
+}
+
+a:active {
+    color: #008080
 }
 
 ul {
